@@ -1,0 +1,65 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+   
+}
+
+
+
+.upper-sec{
+    background-image: url(img/D4.jpg);
+    padding-top: 80px;
+    background-size: cover;
+    min-height: 800px;
+    background-repeat: no-repeat;
+
+}
+
+
+.first-class h1{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 65px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.first-class p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.donate-btn {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    margin: 10px 640px 10px;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 8px;
+    background: #FF5959;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+
+}
+
+.upper-sec{
+    padding:174px 307px 175px 307px;
+    
+}
