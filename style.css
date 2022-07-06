@@ -43,7 +43,7 @@ margin-bottom: 40px;
     justify-content: center;
     width: 150px;
     height: 30px;
-    margin: 10px 640px 10px;
+    margin: 10px 550px 10px;
     align-items: center;
     padding: 16px 20px;
     gap: 8px;
@@ -107,7 +107,7 @@ color: #707070;
 .other-amount{
     display: flex;
     padding-bottom: 3%;
-    margin: 50px 760px;
+    margin: 50px 670px;
 }
 
 .other-amount a{
@@ -136,7 +136,7 @@ color: #707070;
 
 #donate-now{
     display: block;
-    margin: 30px 970px;
+    margin: 30px 870px;
     outline: none;
     border: none;
     color: #ffffff;
@@ -227,7 +227,7 @@ color: #707070;
 
 .side{ 
     width: 50%;
-    padding-left: 21%;
+    padding-left: 23%;
     width: 100%;
     height: 670px;  
 
@@ -256,8 +256,8 @@ color: #707070;
     
 }
 .side-img img{
-  margin-top: 250px;
-  margin-right: 480px;
+  margin-top: 200px;
+  margin-right: 380px;
   width: 500px;
 height: 477px;
 
