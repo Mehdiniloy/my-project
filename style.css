@@ -12,8 +12,9 @@ body{
     background-image: url(img/D4.jpg);
     padding-top: 80px;
     background-size: cover;
-    min-height: 800px;
     background-repeat: no-repeat;
+    padding:174px 307px 175px 307px;
+    min-height: 500px;
 
 }
 
@@ -59,10 +60,6 @@ margin-bottom: 40px;
 
 }
 
-.upper-sec{
-    padding:174px 307px 175px 307px;
-    
-}
 
 
 .second-class h1{
@@ -89,6 +86,134 @@ color: #707070;
 
 }
 
-.budget{
+.mid-sec{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
 
+.mid-sec h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 5%;
+    letter-spacing: 0.5px;
+}
+
+.mid-sec p{
+    letter-spacing: 0.7px;
+    padding-bottom: 5%;
+    color: #707070;
+}
+.other-amount{
+    display: flex;
+    padding-bottom: 3%;
+    margin: 50px 760px;
+}
+
+.other-amount a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #707070;
+    padding: 20px 20px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+#active {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+#amount {
+    padding: 10px 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+}
+
+#donate-now{
+    display: block;
+    margin: 30px 970px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-plan{
+    width: 100%;
+    height: 670px;
+    text-align: center;
+}
+
+.donate-plan h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 10%;
+    letter-spacing: 0.5px;
+}
+.donate-plan p{
+    letter-spacing: 0.7px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #707070;
+}
+.food-plan{
+    display: flex;
+    text-align: left;
+}
+
+
+
+.food-family{
+    width: 360px;
+    height: 352px;
+    background-color: #4f9da642;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+
+.shelter-family{
+    width: 360px;
+    height: 352px;
+    background-color: #ff59592d;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.educatiion-family{
+    width: 360px;
+    height: 352px;
+    background-color: #fff4d6;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.food-family img,
+.shelter-family img,
+.educatiion-family img {
+    width: 15%;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.food-family h2,
+.shelter-family h2,
+.educatiion-family h2 {
+    font-size: 1.6rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.food-family p,
+.shelter-family p,
+.educatiion-family p {
+    font-size: 0.8rem;
+    padding-left: 20px;
+    
 }
